@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@aries-framework/core": "^0.2.0-alpha.139",
+    "@aries-framework/node": "^0.2.0-alpha.139",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "@types/qrcode-terminal": "^0.12.0"
+  }
+}
