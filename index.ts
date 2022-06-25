@@ -21,7 +21,7 @@ const run = async () => {
 
   const url = invitation.toUrl({ domain: "https://example.org" })
 
-  qrcode.generate(url)
+  qrcode.generate(url, { small: true} )
 
   const connectionId = await connectionListener(agent, outOfBandRecord.id)
 
